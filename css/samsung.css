@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.progress{
+    height: 2px;
+}
+.progress-bar{
+    width: 20%;
+}
+
+.samsung_progres{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.samsung_progres1{
+    width: 87% !important;
+}
+#ultrabuk_hr{
+    width: 100%;
+    color: rgb(175, 173, 173);
+    margin-top: 5vh !important;
+    height: 2px;
+}

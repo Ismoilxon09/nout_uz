@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+.div404{
+    width: 100%;
+    height: 55vh;
+}
+.div_404{
+    width: 100%;
+    height: 15vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_404>h1{
+    font-size: 50pt;
+
+}
+.div_h4{
+    width: 100%;
+    height: 10vh;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.inp_div{
+    width: 100%;
+    height: 10vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.inp_div>input[type="text"]{
+    width: 40%;
+    height: 7.5vh;
+    border-radius: 25px;
+    border: solid 1px rgb(165, 161, 161);
+}
+.inp_div>input[type="text"]::placeholder{
+    margin-left: 20px;
+    position: absolute;
+}
+.inp_div>input[type="button"]{
+    width: 8%;
+    height: 7.5vh;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(202, 201, 201);
+    margin-left: 5px;
+}
+.inp_div>input[type="button"]:hover{
+    color: white;
+    background-color: black;
+    transition: 0.4s !important;
+}
+#hr12{
+    width: 80%;
+    margin-left: 10%;
+    color: rgb(185, 180, 180);
+}
+#hr11{
+    width: 85%;
+    
+    margin-left: 7%;
+    color: rgb(185, 180, 180);
+}
+.divmain01{
+    width: 8%;
+    padding: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4e2e2 !important;
+    border-radius: 5px;
+    margin-left: 10px;
+}

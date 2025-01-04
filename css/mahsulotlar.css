@@ -1,0 +1,1169 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+.div_nout{
+    width: 100%;
+    /* height: 80vh; */
+    /* background-color: brown; */
+    display: inline-flex;
+    justify-content: center;
+}
+.div_nout01{
+    width: 100%;
+    /* height: 80vh; */
+    /* background-color: brown; */
+    display: inline-flex;
+    justify-content: center;
+}
+.div_nout1{
+    width: 90%;
+    /* height: 80vh; */
+    /* background-color: rgb(42, 165, 69); */
+    display: inline-flex;
+    justify-content: space-between;
+}
+.div_rasm{
+    width: 40%;
+    /* background-color: blueviolet; */
+}
+.div_malumot{
+    width: 55%;
+    /* height: 80vh; */
+    /* background-color: blue; */
+}
+.rasm{
+    width: 100%;
+    height: 60vh;
+    /* background-color: rgb(255, 166, 0); */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.rasm>img{
+    width: 70%;
+}
+.rasm_next{
+    width: 100%;
+    height: 15vh;
+    /* background-color: rgb(139, 66, 117); */
+    margin-top: 5vh;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.img_div{
+    width: 17%;
+    height: 10vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/02/84.png);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+    
+}
+.img_div:hover{
+    border-bottom:solid 2px #073cea;
+    transition: 0.1s;
+}
+.img_div1:hover{
+    border-bottom:solid 2px #073cea;
+    transition: 0.1s;
+}
+.img_div2:hover{
+    border-bottom:solid 2px #073cea;
+    transition: 0.1s;
+}
+.img_div3:hover{
+    border-bottom:solid 2px #073cea;
+    transition: 0.1s;
+}
+.img_div0:hover{
+    border-bottom:solid 2px #073cea;
+    transition: 0.1s;
+}
+.img_div11:hover{
+    border-bottom:solid 2px #073cea;
+    transition: 0.1s;
+}
+.img_div22:hover{
+    border-bottom:solid 2px #073cea;
+    transition: 0.1s;
+}
+.img_div33:hover{
+    border-bottom:solid 2px #073cea;
+    transition: 0.1s;
+}
+.img_div1{
+    width: 17%;
+    height: 10vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/02/85-1536x1154.png);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div2{
+    width: 17%;
+    height: 10vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/02/86-1536x1154.png);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div3{
+    width: 17%;
+    height: 10vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/02/87-1536x1154.png);
+    border-radius: 2px;
+    border: solid 1px rgb(230, 228, 228);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div0{
+    width: 17%;
+    height: 10vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/02/80-1536x1154.png);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div11{
+    width: 17%;
+    height: 10vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/02/81-1536x1154.png);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div22{
+    width: 17%;
+    height: 10vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/02/82-1536x1154.png);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div33{
+    width: 17%;
+    height: 10vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/02/83.png);
+    border-radius: 2px;
+    border: solid 1px rgb(230, 228, 228);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div01{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/03/MSI-Stealth-17-4.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div02{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/03/MSI-Stealth-17-3.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div03{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/03/MSI-Stealth-17-2.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div04{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/03/MSI-Stealth-17.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(230, 228, 228);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div011{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2024/07/42.png);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div022{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2024/07/44.png);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div033{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2024/07/43.png);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div044{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2024/07/45.png);
+    border-radius: 2px;
+    border: solid 1px rgb(230, 228, 228);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div055{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2024/07/46.png);
+    border-radius: 2px;
+    border: solid 1px rgb(230, 228, 228);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div10{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/09/LG-Gram-14-1.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div20{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/09/LG-Gram-14-3.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div30{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/09/LG-Gram-14-2.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div40{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/09/LG-Gram-14.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(230, 228, 228);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div100{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/08/Gateway.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div200{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/08/Gateway3.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div300{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/08/Gateway1.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div400{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/08/Gateway2.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(230, 228, 228);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div101{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/07/Spectre-GOLD-16-4.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div201{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/07/Spectre-GOLD-16-2.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div301{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/07/Spectre-GOLD-16-1.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div401{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/07/Spectre-GOLD-16.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(230, 228, 228);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div501{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/07/Spectre-GOLD-16-3.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(230, 228, 228);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div110{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/04/dell-backpack-1.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div202{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/04/dell-backpack-2.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div303{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/04/dell-backpack-3.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div404{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/04/dell-backpack-4.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(230, 228, 228);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div111{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/03/msi-air-backpack-1.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div212{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/04/msi-air-backpack-1.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div313{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/04/msi-air-backpack-2.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div414{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/04/msi-air-backpack-4-100x100.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(230, 228, 228);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div1110{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/04/msi-backpack-5.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div222{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/04/msi-backpack-6.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div333{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/04/msi-backpack-7.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div444{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/04/msi-backpack-8-100x100.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(230, 228, 228);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div121{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/03/msi-urban-raider-gaming-backpack-4.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div2220{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/03/msi-urban-raider-gaming-backpack-1-100x100.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div3330{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/03/msi-urban-raider-gaming-backpack-2-100x100.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div4440{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/03/msi-urban-raider-gaming-backpack-3-100x100.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(230, 228, 228);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div1210{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2022/03/rog-delta-white1.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div2202{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2022/03/rog-delta-white3.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div3303{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2022/03/rog-delta-white2.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div0110{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/03/Legion-7-Sim1.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div0220{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/03/Legion-7-Sim2.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div0330{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/03/Legion-7-Sim4.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div0440{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2023/03/Legion-7-Sim3.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div17{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/11/legion-5pro1.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div0222{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/11/legion-5pro4.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div0333{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/11/legion-5pro3.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div0444{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/11/legion-5pro2-100x100.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div170{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2024/05/5-1.png);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div220{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2024/05/6.png);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div330{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2024/05/7.png);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div440{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2024/05/8.png);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.nextrasm{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2024/07/e1504FA.png);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.nextrasm1{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2024/01/20.png);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.nextrasm2{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2024/01/21.png);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.nextrasm3{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2024/01/22.png);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.nextrasm1{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2022/06/2022-f17-tuf1-300x300.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.nextrasm2{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2022/06/2022-f17-tuf4-100x100.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.nextrasm3{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2022/06/2022-f17-tuf3-100x100.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.nextrasm4{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2022/06/2022-f17-tuf2-100x100.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_0{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/11/victus2.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_11{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/11/victus5.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_22{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/11/victus1.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_33{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2021/11/victus6-100x100.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(230, 228, 228);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_01{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2022/05/grosshare1.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_02{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2022/05/grosshare3.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_03{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2022/05/grosshare2.jpg);
+    border-radius: 2px;
+    border: solid 1px rgb(230, 228, 228);
+    background-size: cover;
+    cursor: pointer;
+}
+.nextrasmdell{
+    width: 17%;
+    height: 13vh;
+    background: url(https://nout.uz/wp-content/uploads/2024/03/DellXPS15-9530LaptopPriceinUAE_5.webp);
+    border-radius: 2px;
+    border: solid 1px rgb(230, 228, 228);
+    background-size: cover;
+    cursor: pointer;
+}
+.nextrasmdell1{
+    width: 20%;
+    height: 10vh;
+    background: url(https://nout.uz/wp-content/uploads/2024/03/optimize.webp);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.nextrasmdell2{
+    width: 20%;
+    height: 10vh;
+    background: url(https://nout.uz/wp-content/uploads/2024/03/optimize-1-1536x912.webp);
+    border-radius: 2px;
+    border: solid 1px rgb(226, 223, 223);
+    background-size: cover;
+    cursor: pointer;
+}
+.nextrasmdell3{
+    width: 20%;
+    height: 10vh;
+    background: url(https://nout.uz/wp-content/uploads/2024/03/optimize-2-1536x1193.webp);
+    border-radius: 2px;
+    border: solid 1px rgb(230, 228, 228);
+    background-size: cover;
+    cursor: pointer;
+}
+.img_div01:hover{
+    border-bottom:solid 2px #073cea;
+    transition: 0.1s;
+}
+.img_div02:hover{
+    border-bottom:solid 2px #073cea;
+    transition: 0.1s;
+}
+.img_div03:hover{
+    border-bottom:solid 2px #073cea;
+    transition: 0.1s;
+}
+.img_div04:hover{
+    border-bottom:solid 2px #073cea;
+    transition: 0.1s;
+}
+#imghp{
+    width: 6%;
+    margin-top: 10px;
+}
+#hrhp{
+    color: rgb(170, 169, 169);
+    margin-top: 5vh;
+}
+#TG{
+    /* font-family: Courier, monospace !important; */
+    font-size: 10.5pt;
+    margin-left: 10px;
+    color: #0787ea;
+}
+#itg{
+    margin-right: 10px;
+}
+#about{
+    font-size: 13pt;
+    margin-top: 20px;
+}
+.div_harid{
+    width: 90%;
+    height: 10vh;
+    display: inline-flex;
+    align-items: center;
+}
+.div_select{
+    width: 30%;
+    height: 9vh;
+    border: solid 1px #0787ea;
+    border-radius: 5px;
+    text-align: center;
+    text-emphasis: none;
+    display: inline-flex;
+    align-items: center;
+}
+#inpson{
+    width: 70%;
+    height: 8vh;
+    border: none;
+    margin-left: 10%;
+    outline: none;
+}
+#inpson::placeholder{
+    margin-left: 20px;
+    position: absolute;
+}
+#btnqush0{
+    width: 20%;
+    height: 4vh;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+#btnqush{
+    width: 20%;
+    height: 4vh;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+#button_buy{
+    width: 70%;
+    height: 9vh;
+    border-radius: 5px;
+    border: none;
+    background-color: #0793ff;
+    color: white;
+    margin-left: 10px;
+    font-size: 12pt !important;
+    font-weight: bolder;
+}
+#button_buy:hover{
+    background-color: #064a7e;
+    transition: 0.4s;
+}
+#button_percent{
+    width: 70%;
+    height: 8vh;
+    border-radius: 5px;
+    border: solid 2px #0793ff;
+    background-color: white;
+    color: #0793ff;
+    margin-left: 10px;
+    font-size: 12pt !important;
+    font-weight: bolder;
+}
+#button_percent:hover{
+    background-color: #000000;
+    transition: 0.4s;
+    color: white;
+    border: none;
+}
+#i_buy{
+    margin-right: 5px;
+    font-size: 12pt;
+    
+}
+.div_about_pavilion15{
+    width: 100%;
+    height: max-content;
+    /* margin-top: 50px; */
+    display: inline-flex;
+    justify-content: center;
+}
+.div_oxshash{
+    width: 100%;
+    height: 20vh;
+    /* background-color: aqua; */
+    display: inline-flex;
+    justify-content: center;
+}
+.div_oxshash1{
+    width: 90%;
+    height: 20vh;
+    /* background-color: rgb(140, 0, 255); */
+    display: inline-flex;
+    align-items: end;
+}
+#p_msi{
+    color: rgb(158, 157, 157);
+    font-weight: bold;
+}
+.div_video{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #0787ea; */
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.div_video1{
+    width: 86.5%;
+    height: 100vh;
+    /* background-color: #ea07a6; */
+    
+}
+#iframe{
+    width: 100%;
+    height: 100vh;
+}
+#imgasus{
+    width: 20% !important;
+    margin-top: 20px !important;
+}
+.div_fikr{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #0793ff; */
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 20vh; */
+}
+.div_fikrlar{
+    width: 100%;
+    height: 10vh;
+    /* background-color: #8bff07; */
+    display: inline-flex;
+    justify-content: center;
+}
+.div_h5{
+    width: 7%;
+    height: 10vh;
+    /* background-color: #ff3907; */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: solid 3px rgb(0, 102, 255); */
+    
+}
+.div_h5>h5{
+    border-width: bold;
+    margin-top: 10px;
+}
+.fikrlar_body{
+    width: 86.5%;
+    height: 90vh;
+    /* background-color: #ff078f; */
+    border-radius: 20px;
+    border: solid 1px rgb(214, 213, 213);
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#imgplaceholder{
+    width: 7%;
+}
+.div_parametrlar{
+    width: 90%;
+    height: 6vh;
+    border-bottom: solid 1px rgb(199, 199, 199);
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div_parametrlar>span{
+    font-weight: bold;
+    color: #2f2c58;
+    /* margin-left: 30px; */
+    padding: 20px;
+}
+.p>p{
+    color: #2f2c58;
+    margin-left: 30;
+    text-align: center;
+    margin-top: 6px;
+}
+.p{
+    width: 70%;
+    height: 6vh;
+    display: inline-flex;
+}
+#qush{
+    width: 20%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center !important;
+    margin-left: -20px !important;
+}
+#narx{
+    color: #f91155;
+    font-weight: 500 !important;
+    line-height: 1.286em;
+    margin-top: 5vh;
+}
+.div_narx{
+    width: 70%;
+    height: max-content;
+    background-color: #47f911;
+    display: inline-flex;
+}
+.buy_naqt{
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.buy_percent{
+    width: 50%;
+
+}
+@media screen and (max-width:992px) {
+    
+}
+@media screen and (max-width:768px) {
+    .div_nout{
+        height: 160vh !important;
+    }
+    .div_nout01{
+        height: 190vh !important;
+    }
+    .div_nout1{
+        height: 160vh !important;
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .div_rasm{
+        width: 100% !important;
+    }
+    .div_malumot{
+        width: 100% !important;
+        margin-top: 10vh;
+    }
+    footer{
+        margin-top: 10vh !important;
+    }
+    #button_buy{
+        width: 50% !important;
+    }
+    .div_about_pavilion15{
+        margin-top: 25vh !important;
+    }
+    .div_fikr{
+        margin-top: 30vh !important;
+    }
+    .fikrlar_body{
+        width: 97%;
+    }
+    .div_fikrlar{
+        display: inline-flex;
+    }
+    .div_harid{
+        width: 95%;
+        height: 20vh;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .buy_naqt{
+        width: 100%;
+        display: inline-flex;
+        justify-content: start;
+    }
+    .buy_percent{
+        width: 100%;
+        display: inline-flex;
+    }
+    #button_buy{
+        width: 80% !important;
+    }
+    #button_percent{
+        width: 100% !important;
+        height: 9vh;
+    }
+    .div_select{
+        width: 20%;
+    }
+}
+@media screen and (max-width:576px) {
+    .div_fikr{
+        margin-top: 30vh !important;
+    }
+    .fikrlar_body{
+        width: 97%;
+        height: max-content;
+        border: none;
+    }
+    .div_parametrlar{
+        width: 95%;
+        height: 10vh;
+        display: inline-flex;
+        align-items: center;
+    }
+    .div_parametrlar>span{
+        font-size: 10.5pt;
+        margin-bottom: 10px;
+    }
+    .p{
+        width: 60%;
+        display: inline-flex;
+        align-items: center;
+    }
+    .p>p{
+        text-align: start;
+        font-size: 10.5pt;
+        font-weight: 500;
+    }
+    .div_oxshash{
+        margin-top: 30vh;
+    }
+    
+}

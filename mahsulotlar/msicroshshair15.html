@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nout.uz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon"  href="data:image/jpeg;base64,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" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../firstpage.css">
+    <link rel="stylesheet" href="../css/acer.css">
+    <link rel="stylesheet" href="../css/mahsulotlar.css">
+</head>
+<body>
+    
+        <header>
+               <div class='header-div'>
+                <div class='header-div1'>
+                    
+                  <span id='span01'>Noutbuklar Toshkentda birinchi qoldan. O’zbekistonda eng zo’r narxlar!</span>
+             <div class='header-div2'>
+                <div class='header-div3'>
+                <a id='Link01'>(90) 973-49-60 
+                Андрей</a>
+                <a id='Link01'>(90) 994-59-49
+                 Шохрух</a>
+                <a id='Link01'>(94) 661-95-13
+                 Рустам</a>
+                <a id='Link01'>(99) 815-50-15 
+                Отабек</a>
+                <a id='Link01'>(93) 399-22-72 
+                Николай</a>
+                <a id='Link01'>(97) 735-01-19 
+                Баходыр</a>
+                <a id='Link0'>
+                Русский(Russian)
+                </a>
+                </div>
+              </div>
+            </div>
+              </div>
+              <hr id='hr'/>
+              <div class='header_div'>
+                  <div class='header_div1'>
+                      <div class='header_div01'>
+                        <div class='header_div2'>
+                        <button id='btn' class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-solid fa-bars"></i></button>
+                            <div  class=" offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                              <div class="offcanvas-header">
+
+                                
+                                <button id='btn21' type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                              </div>
+                              <div class="offcanvas-body">
+                                <ul id='offcanvas_ul'>
+                                  <a href="../pages/asus.html">
+                                     <li id='offcanvas_li'>
+                                       <a href="../pages/asus.html" id='offcanvas_link'>Asus</a>
+                                     </li>
+                                  </a>
+                                  <a href="../pages/msi.html">
+                                     <li id='offcanvas_li'>
+                                       <a href="../pages/msi.html" id='offcanvas_link'>MSI</a>
+                                     </li>
+                                  </a>
+                                  <a href="../pages/lenovo.html">
+                                     <li id='offcanvas_li'>
+                                       <a href="../pages/lenovo.html" id='offcanvas_link'>Lenovo</a>
+                                     </li>
+                                  </a>
+                                  <a href="../pages/hp.html">
+                                     <li id='offcanvas_li'>
+                                       <a href="../pages/hp.html" id='offcanvas_link'>HP</a>
+                                     </li>
+                                  </a>
+                                  <a href="../pages/dell.html">
+                                     <li id='offcanvas_li'>
+                                       <a href="../pages/dell.html" id='offcanvas_link'>Dell</a>
+                                     </li>
+                                  </a>
+                                  <a href="../pages/razer.html">
+                                     <li id='offcanvas_li'>
+                                       <a href="../pages/razer.html" id='offcanvas_link'>Razer</a>
+                                     </li>
+                                  </a>
+                                  <a href="../pages/samsung.html">
+                                     <li id='offcanvas_li'>
+                                       <a href="../pages/samsung.html" id='offcanvas_link'>Samsung</a>
+                                     </li>
+                                  </a>
+                                  <a href="../pages/microsoft.html">
+                                     <li id='offcanvas_li'>
+                                       <a href="../pages/microsoft.html" id='offcanvas_link'>Microsoft Surface</a>
+                                     </li>
+                                   </a>
+                                   <a href="../pages/acer.html">
+                                      <li id='offcanvas_li'>
+                                       <a href="../pages/acer.html" id='offcanvas_link'>Acer</a>
+                                      </li>
+                                   </a>
+                                   <a href="../pages/lg.html">
+                                     <li id='offcanvas_li'>
+                                       <a href="../pages/lg.html" id='offcanvas_link'>LG</a>
+                                     </li>
+                                   </a>
+                                   <a>
+                                     <li id='offcanvas_li'>
+                                       <a id='offcanvas_link'> Русский (Russian)</a>
+                                     </li>
+                                   </a>
+                                </ul>
+                              </div>
+                            </div>
+                        </div>
+                          <div class='header_div3'>
+                            <img src="https://nout.uz/wp-content/uploads/2021/03/noutuzblogo.svg" alt="" />
+                          </div>
+                      </div>
+                      <div class='header_div02'>
+                        <a href="">
+                          <i class="fa-solid fa-arrows-rotate"></i>
+                        </a>
+                        <a href="">
+                          <i class="fa-regular fa-user"></i>
+                        </a>
+                        <a href="">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </a>
+                      </div>
+                      
+                  </div>
+                  <div class='header'>
+                     <input placeholder='Mahsulot Izlash ...' type="text" />
+                     <a id='Link'><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </div>
+                  <div class='header1 '>
+                  <div class="container">
+                      <div class="row">
+                        <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                                
+                                 
+                                      <div class="MultiCarousel-inner">
+                                        <div class="item">
+                                           <a href="tel:909734960" id='link_tel'>
+                                           (90) 973-49-60
+                                           Андрей
+                                          </a>
+                                         </div>
+                                        <div class="item">
+                                           <a href="tel:909945949" id='link_tel'>
+                                           (90) 994-59-49
+                                           Шохрух
+                                          </a>
+                                        </div>
+                  
+                                        <div class="item">
+                                            <a href="tel:946619513" id='link_tel'>
+                                              (94) 661-95-13
+                                              Рустам
+                                            </a>
+                                        </div>
+                  
+                                        <div class="item">
+                                            <a href="tel:998155015" id='link_tel'>
+                                              (99) 815-50-15
+                                              Отабек
+                                            </a>
+                                        </div>
+                  
+                                        <div class="item">
+                                            <a href="tel:977350119" id='link_tel'>
+                                                (97) 735-01-19
+                                                Баходыр
+                                            </a>
+                                        </div>
+                  
+                                      
+                                      </div>
+                                 
+                              </div>
+                        </div>
+                        </div>
+                  </div>
+              </div>
+                <div class='div_header'>
+                    <div class='div_header1'>
+                      <Link>
+                        <img id='div_header_img' src="https://nout.uz/wp-content/uploads/2021/03/logotype-nout.svg" alt="" />
+                      </Link>
+                    </div>
+                    <div class='div_header2'>
+                        <Link id='select' to="/">Bosh sahifa</Link>
+                        <div class="btn-group">
+                              <button id='select' type="button" class="btn btn-danger dropdown-toggle " data-bs-toggle="dropdown" aria-expanded="false">
+                                Brendlar
+                              </button>
+                              <ul id='dropdown' class="dropdown-menu overflow-auto">
+                                     <li><Link  id='li1' class='dropdown-item'>Brendlar</Link></li>
+                                     <li><Link to="/asus" id='li1' class='dropdown-item'>Asus</Link></li>
+                                     <li><Link to="/msi" id='li1' class='dropdown-item'>MSI</Link></li>
+                                     <li><Link to="/lenovo" id='li1' class='dropdown-item'>Lenovo</Link></li>
+                                     <li><Link to="/dell" id='li1' class='dropdown-item'>Dell</Link></li>
+                                     <li><Link to="/hp" id='li1' class='dropdown-item'>HP</Link></li>
+                                     <li><Link to="/razer" id='li1' class='dropdown-item'>Razer</Link></li>
+                                     <li><Link to="/samsung" id='li1' class='dropdown-item'>Samsung</Link></li>
+                                     <li><Link to="/microsoft" id='li1' class='dropdown-item'>Microsoft Surface</Link></li>
+                                     <li><Link to="/acer" id='li1' class='dropdown-item'>Acer</Link></li>
+                                     <li><Link to="/lg" id='li1' class='dropdown-item'>LG</Link></li>
+
+
+
+                              </ul>
+                            </div>
+                        <Link id='select'>Kredit shartlari</Link>
+                        <Link id='select'>Bog'lanish</Link>
+                    </div>
+                    <div class='div_header3'>
+                      <i id='i01' class="fa-solid fa-headphones"></i>
+                      <div class='div_header4'>
+                        <Link>
+                          <h6 id='h6'>+998 (93) 399-22-72</h6>
+                        </Link>
+                        
+                        <span>  @Noutuz (Telegram)</span>
+                      </div>
+                    </div>
+                </div>
+                <div class='inp-div'>
+                <div class="dropdown ">
+                                <button id='btn-1' class="btn btn-secondary  dropdown-toggle  "  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Barcha bo'limlar
+                                </button>
+                                <ul id='dropdown' class="dropdown-menu overflow-auto">
+                                     <li><Link  id='li1' class='dropdown-item'>Barcha bo'limlar</Link></li>
+                                     <li><Link  id='li1' class='dropdown-item'>Aksessuarlar</Link></li>
+                                     <li><Link  id='li1' class='dropdown-item'>HyperX</Link></li>
+                                     <li><Link to="/asus" id='li1' class='dropdown-item'>Asus</Link></li>
+                                     <li><Link to="/dell" id='li1' class='dropdown-item'>Dell</Link></li>
+                                     <li><Link to="/hp" id='li1' class='dropdown-item'>HP</Link></li>
+                                     <li><Link to="/msi" id='li1' class='dropdown-item'>MSI</Link></li>
+                                     <li><Link  id='li1' class='dropdown-item'>O'yin uchun noutbuklar</Link></li>
+                                     <li><Link  id='li1' class='dropdown-item'>PC</Link></li>
+                                     <li><Link  id='li1' class='dropdown-item'>Transformerlar</Link></li>
+                                     <li><Link  id='li1' class='dropdown-item'>Ultrabuklar</Link></li>
+                                     <li><Link  id='li1' class='dropdown-item'>Monobloklar</Link></li>
+                                     <li><Link  id='li1' class='dropdown-item'>Biznes uchum noutbuklar</Link></li>
+                                     <li><Link  id='li1' class='dropdown-item'>Nutbuklar</Link></li>
+
+
+                              </ul>
+                              
+                            </div>
+                            <div class='div4'>
+                      
+                      <div class='inp-div1'>
+                        <input placeholder='Mahsulotlar boyicha qidirish '  id='inp' type="text" />
+                      
+                          <div class="dropdown ">
+                              <button id='btn1' class="btn btn-secondary  "  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Barcha bo'limlar
+                              </button>
+                              <ul id='dropdown' class="dropdown-menu overflow-auto">
+                                   <li><Link  id='li1' class='dropdown-item'>Barcha bo'limlar</Link></li>
+                                   <li><Link  id='li1' class='dropdown-item'>Aksessuarlar</Link></li>
+                                   <li><Link  id='li1' class='dropdown-item'>HyperX</Link></li>
+                                   <li><Link to="/asus" id='li1' class='dropdown-item'>Asus</Link></li>
+                                   <li><Link to="/dell" id='li1' class='dropdown-item'>Dell</Link></li>
+                                   <li><Link to="/hp" id='li1' class='dropdown-item'>HP</Link></li>
+                                   <li><Link to="/msi" id='li1' class='dropdown-item'>MSI</Link></li>
+                                   <li><Link  id='li1' class='dropdown-item'>O'yin uchun noutbuklar</Link></li>
+                                   <li><Link  id='li1' class='dropdown-item'>PC</Link></li>
+                                   <li><Link  id='li1' class='dropdown-item'>Transformerlar</Link></li>
+                                   <li><Link  id='li1' class='dropdown-item'>Ultrabuklar</Link></li>
+                                   <li><Link  id='li1' class='dropdown-item'>Monobloklar</Link></li>
+                                   <li><Link  id='li1' class='dropdown-item'>Biznes uchum noutbuklar</Link></li>
+                                   <li><Link  id='li1' class='dropdown-item'>Nutbuklar</Link></li>
+
+
+                            </ul>
+                            
+                          </div>
+                          <div class="btn-group">
+                            <button id='btn1' type="button" class="btn btn-danger dropdown-toggle " data-bs-toggle="dropdown" aria-expanded="false">
+                              
+                            </button>
+                            <ul id='dropdown' class="dropdown-menu overflow-auto">
+                                   <li><Link  id='li1' class='dropdown-item'>Barcha bo'limlar</Link></li>
+                                   <li><Link  id='li1' class='dropdown-item'>Aksessuarlar</Link></li>
+                                   <li><Link  id='li1' class='dropdown-item'>HyperX</Link></li>
+                                   <li><Link to="/asus" id='li1' class='dropdown-item'>Asus</Link></li>
+                                   <li><Link to="/dell" id='li1' class='dropdown-item'>Dell</Link></li>
+                                   <li><Link to="/hp" id='li1' class='dropdown-item'>HP</Link></li>
+                                   <li><Link to="/msi" id='li1' class='dropdown-item'>MSI</Link></li>
+                                   <li><Link  id='li1' class='dropdown-item'>O'yin uchun noutbuklar</Link></li>
+                                   <li><Link  id='li1' class='dropdown-item'>PC</Link></li>
+                                   <li><Link  id='li1' class='dropdown-item'>Transformerlar</Link></li>
+                                   <li><Link  id='li1' class='dropdown-item'>Ultrabuklar</Link></li>
+                                   <li><Link  id='li1' class='dropdown-item'>Monobloklar</Link></li>
+                                   <li><Link  id='li1' class='dropdown-item'>Biznes uchum noutbuklar</Link></li>
+                                   <li><Link  id='li1' class='dropdown-item'>Nutbuklar</Link></li>
+
+
+                            </ul>
+                          </div>
+                          <button id='inp-1'><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                   </div>
+                   <div class='div5'>
+                         <Link to="https://nout.uz/uz/mening-akkauntim/">
+                           <i class="fa-regular fa-user"></i>
+                         </Link>  
+                         <div class='div005 ' type="button"  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Savat">                      
+                         <button  class="btn btn-primary position-relative" id='btn_buy1'  type="button"  data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom"  data-bs-content="Savatchada mahsulotlar yo'q">
+                         <i class="fa-solid fa-bag-shopping"></i>
+                          <span id='span1' class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            0
+                            
+                          </span>
+                        </button>
+                           
+                         </div>
+                     </div>
+               </div>
+               <div class='div_main01 '>
+                       <div class='div_main2 overflow-x-auto'>
+                          <Link id='main-link' to="/">Bosh sahifa</Link>
+                          <span><i class="fa-solid fa-chevron-right"></i></span>
+                          <div class='divmain'>
+                            <a href="../pages/msi.html" id='main-link1'>MSI</a>
+                          </div>
+                          
+                          <span><i class="fa-solid fa-chevron-right"></i></span>
+                          
+                          <span>MSI Crosshair 15 (i7-12700H/RTX3070Ti)</span>
+
+                       </div>
+               </div>
+         </header>
+         <main>
+            <div class='div_nout'>
+                 <div class='div_nout1'>
+                    <div class="div_rasm">
+                      <div class="rasm">
+                          <img id='imgrasm' src="https://nout.uz/wp-content/uploads/2022/05/grosshare1.jpg" alt="" />
+                      </div>
+                      <div class="rasm_next overflow-x-auto">
+                          <div onclick="nextrasm()" class="img_01"></div>
+                          <div onclick="nextrasm1()" class="img_02"></div>
+                          <div onclick="nextrasm2()" class="img_03"></div>
+                      </div>
+                    </div>
+                    <div class="div_malumot">
+                       <h3>MSI Crosshair 15 (i7-12700H/RTX3070Ti)</h3>
+                       <img id='imghp' src="HP Victus 15 (i5-12450H/RTX3050) Uzb" alt="" />
+                         <hr id='hrhp'/>
+                       <a id='TG'><strong><i id='itg' class="fa-brands fa-telegram"></i>TG orqali buyurtma</strong></a>
+                       <h5 id='about'>Ekran: 15.6'' FullHD IPS 144Hz</h5>
+                       <h5 id='about'>Protsessor: Intel® Core™ i7-12700h (3.5 GHz – 4.7 GHz) (14 yadro; #ishlash yadrolari 6, # samarali yadrolar 8; 20 iplar)</h5>
+                       <h5 id='about'>Videokarta:  GeForce RTX3070Ti NVIDIA 8GB/256Bit/GDDR6</h5>
+                       <h5 id='about'>OZU: 16GB DDR4 (32GB=+65 у.е)</h5>
+                       <h5 id='about'>Hard: 1TB PCIe® NVMe™ M.2 SSD</h5>
+                       <h2>18 060 000 so'm</h2>
+                       <span>1400</span>
+                         <br />
+                         <div class="div_harid">
+                         <div class="buy_naqt">
+                           <div class="div_select">
+                              <input id='inpson' type="text" value={1}/>
+                              <div class='qush'>
+                                  <button onclick="sonqush()" id='btnqush0'><i class="fa-regular fa-circle-up"></i></button>
+                                    <br />
+                                 <button onclick="sonayir()" id='btnqush'><i class="fa-regular fa-circle-down"></i></button>
+                              </div>
+                           </div>
+                        
+                             <button onclick="savatqush()" id='button_buy'><i id='i_buy' class="fa-solid fa-cart-shopping"></i> Savatga qoshish</button>
+                           </div>
+                         <div class='buy_percent'>
+                           <button id='button_percent'><i class="fa-solid fa-percent"></i>  Bo'lib to'lash</button>
+                         </div>
+                       </div>
+                    </div>
+                 </div>
+            </div>
+            <div class='div_fikr'>
+                  <div class='div_fikrlar'>                     
+                      <div class='div_h5'>
+                         <h5>Parametrlar</h5>
+                      </div>
+                  </div>
+                  <div class='fikrlar_body'>
+                     <div class="div_parametrlar">
+                        <span>Brend</span>
+                        <div class="p">
+                          <p>MSI</p>
+                        </div>
+                     </div>
+                     <div class="div_parametrlar">
+                        <span>Model</span>
+                        <div class="p">
+                          <p>	
+                          MSI Crosshair 15 B12UGZ-288XUZ</p>
+                        </div>
+                     </div>
+                     <div class="div_parametrlar">
+                        <span>Protsessor</span>
+                        <div class="p">
+                           <p>Intel® Core™ i7-12700h (3.5 GHz – 4.7 GHz) (14 yadro; #ishlash yadrolari 6, # samarali yadrolar 8; 20 iplar)</p>
+                        </div>
+                     </div>
+                     <div class="div_parametrlar">
+                        <span>Videokarta</span>
+                        <div class="p">
+                           <p>GeForce RTX3070Ti NVIDIA 8GB/256Bit/GDDR6</p>
+                        </div>
+                     </div>
+                     <div class="div_parametrlar">
+                        <span>Ekran diagonali</span>
+                        <div class="p">
+                           <p>15.6'' FullHD IPS 144Hz</p>
+                        </div>
+                     </div>
+                     <div class="div_parametrlar">
+                        <span>Ekran o\'lchami</span>
+                        <div class="p">
+                           <p>FHD</p>
+                        </div>
+                     </div>
+                     <div class="div_parametrlar">
+                        <span>Matritsa turi</span>
+                        <div class="p">
+                           <p>IPS</p>
+                        </div>
+                     </div>
+                     <div class="div_parametrlar">
+                        <span>OZU</span>
+                        <div class="p">
+                           <p>16GB DDR4 (32GB=+65 у.е)</p>
+                        </div>
+                     </div>
+                     <div class="div_parametrlar">
+                        <span>Hard</span>
+                        <div class="p">
+                           <p>1TB PCIe® NVMe™ M.2 SSD</p>
+                        </div>
+                     </div>
+                     <div class="div_parametrlar">
+                        <span>Сеть</span>
+                        <div class="p">
+                           <p>Лицензионный Windows 11</p>
+                        </div>
+                     </div>
+                     <div class="div_parametrlar">
+                        <span>Корпус</span>
+                        <div class="p">
+                           <p>Alyuminiy / Plastmassa</p>
+                        </div>
+                     </div>
+                     <div class="div_parametrlar">
+                        <span>Порты</span>
+                        <div class="p">
+                           <p>
+                             3x USB 3
+                              1x HDMI
+                              1x TYP-C
+                           </p>   
+                        </div>
+                     </div>
+                  </div>
+              </div>
+              <div class='div_oxshash'>
+                 <div class='div_oxshash1'>
+                     <div class='samsung_progres1 '>
+                        <h4>O'xshash Noutbuklar</h4>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar" ></div>
+                        </div>
+                  
+                     </div>
+                 </div>
+              </div>
+              <div class='div_main012 row '>
+              <div class="card main16 col-xl-4 lg-4 md-4 sm-12  ">
+                     <Link id='a1' to="/hppavilionsilver">
+                       <span id='span'>HP Pavilion 15 Silver (R3-5300U/4GB)</span>
+                        <img id='img' src="https://nout.uz/wp-content/uploads/2023/02/80-300x300.png" class="card-img-top" alt="..." />
+                        <div class="cardbody">
+                          <br />
+                          <span>15.6</span>
+                             <br />
+                             <br />
+                          <p class="card-text">AMD Ryzen™ 3-5300u (2.6 GHz - 3.8 GHz) (4 yadro - 8 ip)</p>
+                            <br />
+                          <span>AMD® Radeon Graphics</span>
+                            <br />
+                            <br />
+                          <span>4GB DDR4 (8GB=+10 у.е)</span>
+                            <br />
+                            <br />
+                          <span>256GB PCIe® NVMe™ M.2 SSD (512GB SSD=+40 у.е)</span>
+                            <br />
+                            <br />
+                          <span id='span01'>4 754 500 so'm</span>
+                            <br />
+                          <span id='span1'>370</span>
+                          
+                          <button id='a2' class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                      </Link>
+                        <hr id='tg_hr'/>
+                        <a id='tg' href="https://t.me/noutuz"><i class="fa-brands fa-telegram"></i> TG orqali buyurma</a>
+                      </div>
+                   
+                      <div class='div_main16 col-xl-4 lg-4 md-4 sm-12 '>
+                      <a id='a1' href="/asustufgamingf17">
+                       <span id='span'>Asus TUF Gaming F17 (i9-13900H/RTX4060)</span>
+                        <img id='img' src="https://nout.uz/wp-content/uploads/2022/06/2022-f17-tuf1-300x300.jpg" class="card-img-top" alt="..." />
+                        <div class="cardbody">
+                          <span>17.3'' QHD IPS 240Hz</span>
+
+                          <p class="card-text">Intel Core i9-13900H (1.6GHz - 5.4GHz) (14 yadro - 20 potok)</p>
+                            <br />
+                          <span>GeForce RTX4060 8GB/140W/GDDR6</span>
+                            <br />
+                            <br />
+                          <span>16GB DDR4 (32GB=+65 у.е)</span>
+                            <br />
+                          <span>512GB PCIe® NVMe™ M.2 SSD (1TB SSD=+50 у.е)</span>
+                            <br />
+                            <br />
+                          <span id='span01'>16 000 000 so'm</span>
+                            <br />
+                          <span id='span1'>1250</span>
+                          
+                          <button id='a2' class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                      </a>
+                        <hr id='tg_hr'/>
+                        <a id='tg' href="https://t.me/noutuz"><i class="fa-brands fa-telegram"></i> TG orqali buyurma</a>
+                      </div>
+                      
+         </div>
+         </main>
+         <footer> 
+                <div class='footer_div'>
+                <div class="dropdown1">
+                     <button id='footer-btn' class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Brendlar
+                     </button>
+                     <ul id='footer-ul' class="dropdown-menu ">
+                     <Link to="/asus" id='Link11'>
+                              <li id='footer-li'>Asus</li>
+                            </Link>
+                            <Link to="/msi" id='Link11'>
+                              <li id='footer-li'>MSI</li>
+                            </Link>
+                            <Link to="/lenovo" id='Link11'>
+                              <li id='footer-li'>Lenovo</li>
+                            </Link>
+                            <Link to="/hp" id='Link11'>
+                              <li id='footer-li'>HP</li>
+                            </Link>
+                            <Link to="/dell" id='Link11'>
+                              <li id='footer-li'>Dell</li>
+                            </Link>
+                            <Link to="/razer" id='Link11'>
+                              <li id='footer-li'>Razer</li>
+                            </Link>
+                            <Link to="/samsung" id='Link11'>
+                              <li id='footer-li'>Samsung</li>
+                            </Link>
+                            <Link to="/microsoft" id='Link11'>
+                              <li id='footer-li'>Microsoft Surface</li>
+                            </Link>
+                            <Link to="/acer" id='Link11'>
+                              <li id='footer-li'>Acer</li>
+                            </Link>
+                            <Link to="/lg" id='Link11'>
+                              <li id='footer-li'>LG</li>
+                            </Link>
+                            <Link to="/" id='Link11'>
+                              <li id='footer-li'>Русский (Russian)</li>
+                            </Link>
+                     </ul>
+                   </div>
+                   <div class="dropdown1">
+                     <button id='footer-btn' class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Магазин
+                     </button>
+                     <ul id='footer-ul' class="dropdown-menu">
+                     <Link id='Link11'>
+                              <li  id='footer-li'>Noutbuklar</li>
+                            </Link>
+                            <Link id='Link11'>
+                              <li id='footer-li'>Ультрабуки</li>
+                            </Link>
+                            <Link id='Link11'>
+                              <li id='footer-li'>Трансформеры</li>
+                            </Link>
+                            <Link id='Link11'>
+                              <li id='footer-li'>Biznes uchun noutbuklar</li>
+                            </Link>
+                            <Link id='Link11'>
+                              <li id='footer-li'>O’yin noutbuklari</li>
+                            </Link>
+                            <Link id='Link11'>
+                              <li id='footer-li'>PC</li>
+                            </Link>
+                     </ul>
+                   </div>
+                   <div class="dropdown1">
+                     <button id='footer-btn'   class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Помощь
+                     </button>
+                     <ul id='footer-ul' class="dropdown-menu">
+                     <Link id='Link11'>
+                              <li id='footer-li'>Blog</li>
+                            </Link>
+                            <Link id='Link11'>
+                              <li id='footer-li'>Yetkazib berish va to’lov</li>
+                            </Link>
+                            <Link id='Link11'>
+                              <li id='footer-li'>Bizning kontaktlarimiz</li>
+                            </Link>
+                            <Link id='Link11'>
+                              <li id='footer-li'>Kredit shartlari</li>
+                            </Link>
+                     </ul>
+                   </div>
+                    <div class='footer-div1'>
+                      <Link to="https://www.facebook.com/www.nout.uz/">
+                         <i id='i3' class="fa-brands fa-facebook"></i>
+                      </Link>
+                      <Link to="https://www.instagram.com/noutuz/">
+                         <i id='i1' class="fa-brands fa-instagram"></i>
+                      </Link>
+                      <Link to="https://www.youtube.com/channel/UCi4ZcVi58O-CVKRvdYJ_VYg">
+                         <i id='i2' class="fa-brands fa-youtube"></i>
+                      </Link>
+                      <Link to="https://t.me/nout_uz">
+                         <i id='i2' class="fa-brands fa-telegram"></i>
+                      </Link>
+                    </div>
+                   <div class='footer_div2'>
+                      <div class='footer_div3'>
+                          <div class='footer_div5'> 
+                             <img id='img12' src="https://nout.uz/wp-content/uploads/2021/03/logotype-nout.svg" alt="" />
+                          </div>
+                          <div class='footer_div5'>
+                            <i id='i' class="fa-solid fa-headphones"></i>
+                             <span>Savollar bormi? Biz bilan bog'laning!</span>
+                             <br />
+                             <Link id='Link12' to= "telephone">+998 (93) 399-22-72</Link>
+                          </div>
+                          <div class='footer_div5'>
+                             <h6 >Bizning kontaktlarimiz</h6>
+                               
+                             <p>Du - Yak: soat 10:00dan 18:30gacha</p>
+                          </div>
+                      </div>
+                      <div class='footer_div4'>
+                          <h6>Brendlar</h6>
+                            <br />
+                            <ul>
+                              <a href="../pages/asus.html" id='Link11'>
+                                       <li id='footer-li'>Asus</li>
+                                     </a>
+                                     <a href="../pages/msi.html" id='Link11'>
+                                       <li id='footer-li'>MSI</li>
+                                     </a>
+                                     <a href="../pages/lenovo.html" id='Link11'>
+                                       <li id='footer-li'>Lenovo</li>
+                                     </a>
+                                     <a href="../pages/hp.html" id='Link11'>
+                                       <li id='footer-li'>HP</li>
+                                     </a>
+                                     <a href="../pages/dell.html" id='Link11'>
+                                       <li id='footer-li'>Dell</li>
+                                     </a>
+                                     <a href="../pages/razer.html" id='Link11'>
+                                       <li id='footer-li'>Razer</li>
+                                     </a>
+                                     <a href="../pages/samsung.html" id='Link11'>
+                                       <li id='footer-li'>Samsung</li>
+                                     </a>
+                                     <a href="../pages/microsoft.html" id='Link11'>
+                                       <li id='footer-li'>Microsoft Surface</li>
+                                     </a>
+                                     <a href="../pages/acer.html" id='Link11'>
+                                       <li id='footer-li'>Acer</li>
+                                     </a>
+                                     <a href="../pages/lg.html" id='Link11'>
+                                       <li id='footer-li'>LG</li>
+                                     </a>
+                                     <a href="/" id='Link11'>
+                                       <li id='footer-li'>Русский (Russian)</li>
+                                     </a>
+                              </ul>
+                      </div>
+                      <div class='footer_div4'><h6>Магазин</h6>
+                            <br />
+                          <ul>
+                            <Link id='Link11'>
+                              <li>Noutbuklar</li>
+                            </Link>
+                            <Link id='Link11'>
+                              <li>Ультрабуки</li>
+                            </Link>
+                            <Link id='Link11'>
+                              <li>Трансформеры</li>
+                            </Link>
+                            <Link id='Link11'>
+                              <li>Biznes uchun noutbuklar</li>
+                            </Link>
+                            <Link id='Link11'>
+                              <li>O’yin noutbuklari</li>
+                            </Link>
+                            <Link id='Link11'>
+                              <li>PC</li>
+                            </Link>
+                            
+                          </ul>
+                       </div>
+                      <div class='footer_div4'>
+                        <h6>Помощь</h6>
+                        <br />
+                          <ul>
+                            <Link id='Link11'>
+                              <li>Blog</li>
+                            </Link>
+                            <Link id='Link11'>
+                              <li>Yetkazib berish va to’lov</li>
+                            </Link>
+                            <Link id='Link11'>
+                              <li>Bizning kontaktlarimiz</li>
+                            </Link>
+                            <Link id='Link11'>
+                              <li>Kredit shartlari</li>
+                            </Link>
+                            
+                            
+                          </ul>
+                      </div>
+                   </div>
+                </div>
+                <div class='footer_div1'>
+                    <div class='footer_div01'>
+                       <h6>© Nout.uz - Noutbuklar Toshkentda birinchi qoldan. O’zbekistonda eng zo’r narxlar! | Sayt yaratish QWERTY</h6>
+                    </div>
+                    <div class='footer_div02'>
+                        <img src="https://nout.uz/wp-content/uploads/2021/03/payments.jpg" alt="" />
+                    </div>
+                </div>
+
+                <div class='footerdiv'>
+                   <div class='footerdiv1'>
+                     <div class='footerdiv01'>
+                        <img src="https://nout.uz/wp-content/uploads/2021/03/logotype-nout.svg" alt="" />
+                     </div>
+                   </div>
+                   <div class='footerdiv2'>
+                      <div class='footerdiv02'>
+                             <span>Savollar bormi? Biz bilan bog'laning!</span>
+                             <br />
+                             <Link id='footerLink' to= "telephone">+998 (93) 399-22-72</Link>
+                      </div>
+                   </div>
+                </div>
+
+
+
+
+
+             </footer> 
+    
+    
+    
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+             <script src="../main.js"></script>
+             <script>
+               function nextrasm() {
+   var imgrasm = document.getElementById('imgrasm')
+   imgrasm.setAttribute('src', 'https://nout.uz/wp-content/uploads/2022/05/grosshare1.jpg')
+   imgrasm.style.width = "100%";
+   imgrasm.style.translate = "1s";
+}
+function nextrasm1() {
+  var imgrasm = document.getElementById('imgrasm')
+  imgrasm.setAttribute('src', 'https://nout.uz/wp-content/uploads/2022/05/grosshare3.jpg')
+  imgrasm.style.width = "100%";
+  imgrasm.style.translate = "1s";
+}
+function nextrasm2() {
+  var imgrasm = document.getElementById('imgrasm')
+  imgrasm.setAttribute('src', 'https://nout.uz/wp-content/uploads/2022/05/grosshare2.jpg')
+  imgrasm.style.width = "100%";
+  imgrasm.style.translate = "1s";
+}
+             </script>
+</body>
+</html>
