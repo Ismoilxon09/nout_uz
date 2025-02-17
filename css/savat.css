@@ -34,3 +34,11 @@
     font-size: 30pt;
     color: black;
 }
+@media screen and (max-width:992px) {
+    #h4ism{
+        font-size: 10pt;
+    }
+}
+@media screen and (max-width:768px) {
+    
+}

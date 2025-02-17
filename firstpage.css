@@ -6,45 +6,9 @@
     outline: 0px !important;
 }
 
-
-
-
-
-
-
-/* Snowflake base style */
-.snowflake {
-    position: fixed;
-    top: -50px;
-    color: white;
-    font-size: 1em;
-    opacity: 0.8;
-    pointer-events: none;
-    user-select: none;
-    animation: fall linear infinite;
+html{
+    width: 100% !important;
 }
-
-/* Falling animation with slight drift */
-@keyframes fall {
-    to {
-        transform: translateX(var(--horizontal-drift)) translateY(100vh) rotate(var(--rotation));
-    }
-}
-
-/* Lens flare effect style */
-.flare {
-    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.7)) drop-shadow(0 0 12px rgba(255, 255, 255, 0.5));
-}
-
-/* Blurred snowflake for depth */
-.blurred {
-    filter: blur(2px);
-    opacity: 0.5;
-}
-
-
-/* Button styling */
-
 .carousel{
     z-index: -1;
 }
@@ -89,14 +53,20 @@
     justify-content: space-between;
     align-items: center;
 }
-#Link0{
-    color: rgb(3, 3, 3);
-    text-align: center;
-    list-style: none;
-    text-decoration: none;
-    font-size: 10pt;
-    /* font-weight: bold; */
+#slct{
     margin-left: 20px;
+    width: 10%;
+}
+#slct1{
+    background: none;
+    color: white;
+    width: 100%;
+    height: 7vh;
+    border: none;
+    margin-left: 5px;
+}
+#slct>option{
+    width: 10%;
 }
 #Link01{
     color: rgb(14, 15, 41);
@@ -109,7 +79,7 @@
 }
 #span01{
     font-size: 10pt;
-    text-align: start;
+    text-align: center;
 }
 
 .div1{
@@ -170,7 +140,7 @@
     align-items: center;
 }
 #id1{
-    width: 100%;
+    width: 90%;
     height: 10vh;
 }
 .div4{
@@ -193,7 +163,7 @@
     justify-content: space-between;
 }
 .div5{
-    width: 13%;
+    width: 20%;
     height: 18vh;
     font-size: 20pt;
     color: rgb(20, 13, 68);
@@ -362,6 +332,18 @@ main{
     display: inline-flex;
 
 }
+.div120{
+    width: 95%;
+    height: 95vh;
+    display: inline-flex;
+
+}
+.div1200{
+    width: 95%;
+    height: 95vh;
+    display: inline-flex;
+
+}
 .div_main012{
     width: 100% !important;
     height: max-content !important;
@@ -488,7 +470,7 @@ main{
     color: rgb(148, 146, 146);
     border: none;
     height: 5vh;
-    /* margin-top: 5px; */
+    margin-left: 30px !important;
 }
 #a1{
     color: black;
@@ -611,7 +593,7 @@ main{
     height: min-content;
 }
 .header_div1{
-    width: 75%;
+    width: 80%;
     height: 10vh;
     display: inline-flex;
     align-items: center;
@@ -636,7 +618,7 @@ main{
     color: white;
 }
 .header_div2{
-    width: 8%;
+    width: 15%;
     height: 8vh;
     display: inline-flex;
     align-items: center;
@@ -645,12 +627,12 @@ main{
 }
 
 .header_div3{
-    width: 15%;
+    width: 20%;
     height: 10vh;
     display: inline-flex;
     align-items: center;
 }
-.header_div3>img{
+.header_div3>a>img{
     width: 100%;
 }
 #bdi{
@@ -762,6 +744,7 @@ main{
 #dropdown{
     height: 70vh;
     border-radius: 9pt;
+    margin-left: 10% !important;
 }
 
 .footer_div5>span{
@@ -1323,14 +1306,91 @@ main{
     font-size: 10pt;
     font-weight: 700;
 }
-@media screen and (max_width:1400px) {
+#btn_chat{
+    bottom: 0;
+    position: sticky;
+    margin-left: 93%;
+    margin-top: 20px !important;
+    width: 5%;
+    height: 10vh;
+    border-radius: 50%;
+}
+.offcanvas{
+    background-color: white;
+    width: 25% !important;
+    border-right: solid 1px rgb(133, 133, 133);
+}
+#chat_img{
+    width: 15% !important;
+}
+.offcanvas-header{
+    display: inline-flex;
+    justify-content: space-around !important;
+}
+#span_chat{
+    margin-left: 27%;
+}
+.offcanvas-body{
+    display: inline-flex;
+    align-items: end;
+    padding: 0%;
+}
+.div_chat{
+    width: 100%;
+    height: 20vh;
+    border-top: solid 1px rgb(132, 132, 132);
+    padding: 20px;
+    display: inline-flex;
+    flex-direction: column;
+}
+#chat_inp{
+    width: 100%;
+    border: none;
+}
+#inp_file{
+    margin-top: 5vh;
+}
+@media screen and (max-width:1400px) {
     .main16{
         margin-left: 10px !important;
     }
 }
 @media screen and (max-width:992px) {
     .div1{
+        background-color: rgba(6, 147, 227, 1);
+    }
+    .div2{
+        display: inline-flex;
+        align-items: center;
+        height: 13vh !important;
+    }
+    .div4{
         display: none;
+    }
+    .div05{
+        background-color: rgba(6, 147, 227, 1) !important;
+    }
+    #icon_buy{
+        color: white;
+        font-size: 15pt !important;
+    }
+    #icon_person{
+        color: white;
+        font-size: 15pt !important;
+    }
+    #btn_buy{
+        background-color: rgba(6, 147, 227, 1) !important;
+    }
+    .div3{
+        display: none;
+    }
+
+    .o1{
+        display: none;
+    }
+    
+    .header_div02{
+        margin-left: -10%;
     }
     .div6{
         display: none;
@@ -1380,6 +1440,14 @@ main{
         justify-content: space-between;
     }
     .div012{
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .div120{
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .div1200{
         display: inline-flex;
         justify-content: space-between;
     }
@@ -1470,7 +1538,9 @@ main{
         margin-top: 16px;
         display: inline-flex;
     }
-
+    .header-div3>img{
+        width: 10% !important;
+    }
 
     .div_main1{
         width: 100%;
@@ -1496,18 +1566,31 @@ main{
         justify-content: center;
         background-color: #f8f6f3 !important;
     }
+    #search_icon{
+        font-size: 15pt;
+        margin-top: 15px;
+        margin-left: -50% !important;
+    }
+    #btn_chat{
+        width: 7.5% !important;
+        margin-left: 92%;
+    }
+    .offcanvas{
+        width: 40% !important;
+    }
 }
 @media screen and (min-width:992px) {
     .header_div{
+        display: none;
+    }
+    .header_div1{
         display: none;
     }
     .header{
         display: none;
     }
     .header1{
-        /* display: none; */
-        display: inline-flex;
-        flex-direction:column-reverse;
+        display: none;
     }
     .dropdown1{
         display: none;
@@ -1518,10 +1601,28 @@ main{
     .footerdiv{
         display: none;
     }
+    
 }
 @media screen and (max-width:768px) {
     .div1{
+        background-color: rgba(6, 147, 227, 1);
+    }
+    .div2{
+        display: inline-flex;
+        align-items: center;
+    }
+    .div4{
         display: none;
+    }
+    .div3{
+        display: none;
+    }
+
+    .o1{
+        display: none;
+    }
+    .MultiCarousel{
+        margin-left: -10% !important;
     }
     .div6{
         display: none;
@@ -1542,8 +1643,8 @@ main{
         width: 30rem;
         width: 45%;
     }
-    .header_div{
-        position: sticky;top: 0;
+    .header{
+        width: 85% !important;
     }
     .div10>img{
         height: 37vh;
@@ -1571,7 +1672,14 @@ main{
         display: inline-flex;
         justify-content: space-between;
     }
-    
+    .div120{
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .div1200{
+        display: inline-flex;
+        justify-content: space-between;
+    }
     .di{
         height: 100vh;
         display: inline-flex;
@@ -1688,22 +1796,29 @@ main{
     #asus_hr{
         width: 0% !important;
     }
+    #btn_chat{
+        width: 10% !important;
+        margin-left: 87%;
+    }
+    .offcanvas{
+        width: 45% !important;
+    }
 }
 @media screen and (max-width:576px) {
     .div10{
-        height: 25vh;
+        height: 20vh;
     }
     .div10>img{
-        height: 25vh;
+        height: 20vh;
     }
     .div010{
-        height: 30vh;
+        height: 20vh;
     }
     .div010>img{
-        height: 30vh;
+        height: 20vh;
     }
     .div9{
-        height: 60vh;
+        height: 20vh !important;
     }
     .div11{
         height: 60vh;
@@ -1731,11 +1846,11 @@ main{
         height: 40vh;
     }
     .div010{
-        height: 35vh !important;
+        height: 30vh !important;
 
     }
     .div010>img{
-        height: 35vh !important;        
+        height: 30vh !important;        
     }
     .div_main012{
         width: 100% !important;
@@ -1746,9 +1861,7 @@ main{
         height: auto !important;
     }
     .div_main16{
-        width: auto !important;
         width: auto!important;
-        height: 130vh !important;
         border: none;
         border-bottom: solid 1px rgb(211, 210, 210);
         border-right: solid 0px;
@@ -1782,5 +1895,76 @@ main{
     .modal1{
         width: 80%;
         
+    }
+    .div012{
+        height: 250vh !important;
+    }
+    .div120{
+        height: 130vh !important;
+    }
+    .div1200{
+        height: 300vh !important;
+    }
+    .div12{
+        height: 300vh !important;
+    }
+    .div0017{
+        width: 100% !important;
+        height: max-content !important;
+        border: none;
+    }
+    .div017{
+        width: 100% !important;
+        height: 70vh !important;
+        border: none;
+    }
+    .div17{
+        width: 100% !important;
+        height: 70vh !important;
+        border: none;
+    }
+    .div016{
+        width: 100% !important;
+        height: 70vh !important;
+        border: none;
+    }
+    .div0016{
+        width: 100% !important;
+        height: 70vh !important;
+        border: none;
+    }
+    .div16{
+        width: 100% !important;
+        height: 70vh !important;
+        border: none;
+    }
+    .div11>h1 {
+        font-size: 13pt;
+        margin-top: 10px;
+    }
+    .div11>h5{
+        font-size: 10pt;
+    }
+    .footerdiv{
+        width: 100%;
+        height: 35vh;
+    }
+    .footerdiv01{
+        width: 30%;
+    }
+    .footerdiv2{
+        width: 100%;
+        height: 30vh;
+    }
+    .footerdiv02{
+        width: 70%;
+        height: 30vh;
+    }
+    #btn_chat{
+        width: 17% !important;
+        margin-left: 80%;
+    }
+    .offcanvas{
+        width: 55% !important;
     }
 }
